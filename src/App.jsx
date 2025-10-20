@@ -1,3 +1,5 @@
+import Page from "./Page.jsx";
+
 export default function App() {
   return (
     <div style={{ maxWidth: 720 }}>
@@ -17,6 +19,7 @@ export default function App() {
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
 
+      <Page />
     </div>
   );
 }
