@@ -1,25 +1,29 @@
-/* index.css */
-
-/* Base font setup */
-:root, html, body {
-  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
+* {
   box-sizing: border-box;
 }
 
-/* Example text weights */
-h1, h2, h3 {
-  font-weight: 700;
+body {
+  margin: 0;
 }
 
-p {
-  font-weight: 400;
+header {
+  height: 90px;
+  background-color: #21222A;
+  padding: 30px 25px;
 }
 
-strong {
-  font-weight: 600;
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
+nav > img {
+  width: 50px;
+  margin-right: 7px;
+}
 
+nav > span {
+  color: #61DAFB;
+  font-size: 20px;
+}
